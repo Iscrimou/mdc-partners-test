@@ -23,7 +23,7 @@ $currentNumber = 2; // first number greater than one to verify if is prime
 
 echo "First 10 prime numbers are:\n";
 
-while ($primeNumbersCount < 10) { // loop to iterate and checks if the numbers is prime
+while ($primeNumbersCount < 10) { // loop to iterate and checks if the numbers are prime
     if (isPrime($currentNumber)) {
         echo $currentNumber . " ";
         $primeNumbersCount++;
