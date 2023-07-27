@@ -18,7 +18,7 @@ $num = readline("Digit a number to check if is prime: "); // input for number
 $result = isPrime($num); // call the function
 echo "Result: $result\n\n"; // result
 
-$primeNumbersCount = 0; // variable to initial value
+$primeNumbersCount = 0; // initial value
 $currentNumber = 2; // first number greater than one to verify if is prime
 
 echo "First 10 prime numbers are:\n";
