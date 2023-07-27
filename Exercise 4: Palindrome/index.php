@@ -1,6 +1,6 @@
 <?php
 function isPalindrome($input) {
-    $input = str_replace(' ', '', strtolower($input)); // Remove spaces for setences and convert the input to lowercase
+    $input = str_replace(' ', '', strtolower($input)); // Remove spaces for sentences and convert the input to lowercase
 
     if ($input === strrev($input)) { // Check if the input is the same when read in reverse
         return "true";
